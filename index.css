@@ -1,0 +1,31 @@
+.banner{
+    background-image: linear-gradient(45deg, rgba(159, 226, 238, 0.651), 
+    rgba(95, 250, 108, 0.329)),url("./image/background.jpg");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 800;
+}
+
+.nav-link{
+    font-size: 30px !important;
+    font-weight: 800;
+}
+
+.text{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: grey;
+    padding-left: 20px;
+    border-left: 10px solid #fff;
+  }
+
+/*navbar background color*/
+.bg-custom {
+    background-color: #0b0eee00;
+}
