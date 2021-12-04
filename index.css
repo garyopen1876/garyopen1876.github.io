@@ -143,7 +143,41 @@
 
 /*aboutme*/
 .aboutme{
-    background-color: blueviolet;
+    background-color: pink;
 }
 
-  
+.text-about {
+    list-style: none;
+    text-align:center;
+    line-height:500%;
+    font-size: 50px;
+    color: rgb(94, 93, 93);
+}
+
+.aboutmepic{
+    width:30%;
+    height:30%;
+    margin:0px auto;
+}
+
+.aboutmepic img{
+    border-radius: 50%;
+}
+
+.aboutmetext{
+    color: rgb(94, 93, 93);
+    border-width: 3px;  
+    margin:0px auto;
+}
+
+.aboutmewordtext{
+    color: rgb(94, 93, 93);
+    border-width: 3px;  
+    text-align: center;
+}
+
+/*hr*/
+.hr1{
+    background-color: pink;
+	border-top: 10px dashed white;
+}
