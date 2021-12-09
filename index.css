@@ -184,8 +184,58 @@
     background-color:rgba(138,198,209,1);
 }
 
+.myskillstext{
+    color: rgb(94, 93, 93);
+    border-width: 3px;  
+}
+
+.myskillswordtext{
+    color: rgba(245,247,250,1);
+    border-width: 3px;  
+    text-align: center;
+}
+
+.myskillsbox{
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: rgba(80,193,233,1);
+    border: 3px solid rgba(91,231,196,1);
+    margin:auto;
+    opacity: 0.7;
+}
+
+.myskillsbox:hover{
+    box-shadow: 10px 10px 5px rgb(67, 167, 204);
+    opacity: 1;
+}
+
 /*hr*/
 .hr1{
     background-color: pink;
 	border-top: 10px dashed white;
+}
+
+.line-python{
+    width: 70%;
+    border-bottom: 20px solid rgba(122,87,209,1);
+}
+
+.line-python:hover{
+    border-bottom: 20px solid rebeccapurple;
+}
+
+.line-c{
+    width: 50%;
+    border-bottom: 20px solid rgba(122,87,209,1);
+}
+
+.line-java{
+    width: 60%;
+    border-bottom: 20px solid rgba(122,87,209,1);
+}
+
+.line-csharp{
+    width: 30%;
+    border-bottom: 20px solid rgba(122,87,209,1);
 }
