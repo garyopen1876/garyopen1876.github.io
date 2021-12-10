@@ -190,7 +190,7 @@
 }
 
 .myskillswordtext{
-    color: rgba(245,247,250,1);
+    color: #22577A;
     border-width: 3px;  
     text-align: center;
 }
@@ -199,8 +199,8 @@
     height: 450px;
     width: 100%;
     border-radius: 30px;
-    background-color: rgba(80,193,233,1);
-    border: 3px solid rgba(91,231,196,1);
+    background-color: White;
+    border: 3px solid #38A3A5;
     margin:auto;
     opacity: 0.9;
     padding-top: 50px;
@@ -210,7 +210,7 @@
 }
 
 .myskillsbox:hover{
-    box-shadow: 10px 10px 5px rgb(67, 167, 204);
+    box-shadow: 10px 10px 5px rgb(66, 182, 224);
     opacity: 1;
 }
 
@@ -224,7 +224,7 @@
 /*hr*/
 .hr1{
     background-color: pink;
-	border-top: 10px dashed white;
+	border-top: 4px dashed white;
 }
 
 .hr2{
@@ -232,12 +232,12 @@
     height: 1px;
     background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     width: 50%;
-    size: 7;
+    margin: auto;
 }
 
 .line-python{
     width: 70%;
-    border-bottom: 20px solid rgb(240, 8, 220);
+    border-bottom: 20px solid #38A3A5;
 }
 
 .line-python:hover{
@@ -246,15 +246,17 @@
 
 .line-c{
     width: 50%;
-    border-bottom: 20px solid rgb(240, 8, 220);
+    border-bottom: 20px solid #38A3A5;
 }
 
 .line-java{
     width: 60%;
-    border-bottom: 20px solid rgb(240, 8, 220);
+    border-bottom: 20px solid #38A3A5;
 }
 
 .line-csharp{
     width: 30%;
-    border-bottom: 20px solid rgb(240, 8, 220);
+    border-bottom: 20px solid #38A3A5;
 }
+
+
