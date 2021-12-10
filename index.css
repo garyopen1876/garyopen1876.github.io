@@ -153,7 +153,7 @@
 
 /*aboutme*/
 .aboutme{
-    background-color: pink;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .aboutmepic{
@@ -181,7 +181,7 @@
 
 /*myskills*/
 .myskills{
-    background-color:rgba(138,198,209,1);
+    background-image: linear-gradient(to top, #ace0f9 0%, #a18cd1 100%);
 }
 
 .myskillstext{
@@ -196,18 +196,29 @@
 }
 
 .myskillsbox{
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 100%;
     border-radius: 30px;
     background-color: rgba(80,193,233,1);
     border: 3px solid rgba(91,231,196,1);
     margin:auto;
-    opacity: 0.7;
+    opacity: 0.9;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .myskillsbox:hover{
     box-shadow: 10px 10px 5px rgb(67, 167, 204);
     opacity: 1;
+}
+
+.myskillstop { 
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 /*hr*/
@@ -216,26 +227,34 @@
 	border-top: 10px dashed white;
 }
 
+.hr2{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    width: 50%;
+    size: 7;
+}
+
 .line-python{
     width: 70%;
-    border-bottom: 20px solid rgba(122,87,209,1);
+    border-bottom: 20px solid rgb(240, 8, 220);
 }
 
 .line-python:hover{
-    border-bottom: 20px solid rebeccapurple;
+    border-bottom: 20px solid rgb(240, 8, 220);
 }
 
 .line-c{
     width: 50%;
-    border-bottom: 20px solid rgba(122,87,209,1);
+    border-bottom: 20px solid rgb(240, 8, 220);
 }
 
 .line-java{
     width: 60%;
-    border-bottom: 20px solid rgba(122,87,209,1);
+    border-bottom: 20px solid rgb(240, 8, 220);
 }
 
 .line-csharp{
     width: 30%;
-    border-bottom: 20px solid rgba(122,87,209,1);
+    border-bottom: 20px solid rgb(240, 8, 220);
 }
