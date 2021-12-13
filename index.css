@@ -20,83 +20,84 @@
     font-weight: 800;
 }
 
-/*text-li*/
-.text-li-1{
+/*hello*/
+
+.boxtop{
+    margin-right: 150px;
+    margin-bottom: 10%;
+    margin-left: 150px;
+}
+
+.helloC{
     list-style: none;
     width: 100%;
     text-align:center;
     line-height:100%;
     font-size: 50px;
-    color: rgb(94, 93, 93);
+    opacity: 0;
+    color: #eeb8b8 ;
+    animation: typingtt 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite;
+
 }
 
-.text-li-1 span{
-    position: relative;
-}
-
-.text-li-1 span::after{
-    content:"";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border-left:3px solid rgb(94, 93, 93);
-    background: rgb(255, 255, 255);
-    left: 0;
-    animation: typing 3s steps(18) infinite;
-}
-
-.text-li-2{
+.helloCSharp{
     list-style: none;
     width: 100%;
     text-align:center;
     line-height:100%;
-    font-size: 20px;
-    color: rgb(47, 39, 146);
+    font-size: 50px;
+    opacity: 0;
+    color: #f9d9ca;
+    animation: typingtt 10s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite;
+
 }
 
-.text-li-2 span{
-    position: relative;
-}
-
-.text-li-2 span::after{
-    content:"";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border-left:3px solid rgb(47, 39, 146);
-    background: rgb(255, 255, 255);
-    left: 0;
-    animation: typing 5s steps(18) infinite;
-}
-
-.text-li-3{
+.helloPython{
     list-style: none;
     width: 100%;
     text-align:center;
     line-height:100%;
-    font-size: 40px;
-    color: rgb(201, 24, 38);
+    font-size: 30px;
+    opacity: 0;
+    color: #d18063;
+    animation: typingtt 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite;
+
 }
 
-.text-li-3 span{
-    position: relative;
-}
-
-.text-li-3 span::after{
-    content:"";
-    position: absolute;
-    height: 100%;
+.helloPHP{
+    list-style: none;
     width: 100%;
-    border-left:3px solid rgb(201, 24, 38);
-    background: rgb(255, 255, 255);
-    left: 0;
-    animation: typing 4s steps(15) infinite;
+    text-align:center;
+    line-height:100%;
+    font-size: 50px;
+    opacity: 0;
+    color: #917b56;
+    animation: typingtt 12s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite;
+
 }
 
-@keyframes typing {
-    100%{
-        left: 100%;
-    }
+.helloJava{
+    list-style: none;
+    width: 100%;
+    text-align:center;
+    line-height:100%;
+    font-size: 50px;
+    opacity: 0;
+    color: #fe6673;
+    animation: typingtt 14s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite;
+
+}
+
+@keyframes typingtt {
+    0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
 }
 
 .text-me {
@@ -196,7 +197,7 @@
 }
 
 .myskillsbox{
-    height: 450px;
+    height: 500px;
     width: 100%;
     border-radius: 30px;
     background-color: White;
