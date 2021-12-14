@@ -154,7 +154,7 @@
 
 /*aboutme*/
 .aboutme{
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #ace0f9 0%, #c1fac1 100%);
 }
 
 .aboutmepic{
@@ -165,7 +165,7 @@
 
 .aboutmepic img{
     border-radius: 50%;
-    border: 5px double white;
+    border: 5px double rgb(163, 177, 236);
 }
 
 .aboutmetext{
@@ -180,9 +180,22 @@
     text-align: center;
 }
 
+.textbox{
+    background-color: #ffffff;
+    transition : 0.5s;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.textbox:hover{
+    transform: scale(1.3);
+}
+
 /*myskills*/
 .myskills{
-    background-image: linear-gradient(to top, #ace0f9 0%, #a18cd1 100%);
+    background-image: linear-gradient(to top, #fbc2eb 0%, #ace0f9 100%);
 }
 
 .myskillstext{
@@ -221,6 +234,20 @@
     margin-bottom: 30px;
     margin-left: 30px;
 }
+
+.bigbox{
+    background-color: #38A3A5;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/*contact*/
+.contact{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
 
 /*hr*/
 .hr1{
