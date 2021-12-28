@@ -252,7 +252,7 @@
 }
 
 /*contact*/
-.contact{
+.mywork{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
@@ -276,8 +276,23 @@
 }
 
 /*line*/
+.line-html{
+    width: 80%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-css{
+    width: 60%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-javascript{
+    width: 40%;
+    border-bottom: 20px solid #38A3A5;
+}
+
 .line-python{
-    width: 70%;
+    width: 90%;
     border-bottom: 20px solid #38A3A5;
 }
 
@@ -286,7 +301,7 @@
 }
 
 .line-c{
-    width: 50%;
+    width: 40%;
     border-bottom: 20px solid #38A3A5;
 }
 
@@ -296,11 +311,46 @@
 }
 
 .line-csharp{
+    width: 70%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-django{
+    width: 90%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-asp-net-core{
+    width: 60%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-bootstrap{
     width: 30%;
     border-bottom: 20px solid #38A3A5;
 }
 
+.line-mysql{
+    width: 80%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-sqlite{
+    width: 60%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+.line-mssql{
+    width: 30%;
+    border-bottom: 20px solid #38A3A5;
+}
+
+
 /*spacing*/
 .myskills-spacing{
     height: 60px;
+}
+
+.aboutme-spacing{
+    height: 50px;
 }
